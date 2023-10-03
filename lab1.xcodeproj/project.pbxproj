@@ -16,6 +16,7 @@
 		3F82A5A22ACC069800F650D9 /* lab1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F82A5A12ACC069800F650D9 /* lab1UITestsLaunchTests.swift */; };
 		3F82A5AF2ACC087F00F650D9 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F82A5AE2ACC087F00F650D9 /* ButtonView.swift */; };
 		3F82A5B12ACC0C4B00F650D9 /* Calculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F82A5B02ACC0C4B00F650D9 /* Calculation.swift */; };
+		3F82A5B32ACC124600F650D9 /* OperatorButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F82A5B22ACC124600F650D9 /* OperatorButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		3F82A5A12ACC069800F650D9 /* lab1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lab1UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3F82A5AE2ACC087F00F650D9 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		3F82A5B02ACC0C4B00F650D9 /* Calculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculation.swift; sourceTree = "<group>"; };
+		3F82A5B22ACC124600F650D9 /* OperatorButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperatorButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				3F82A58A2ACC069800F650D9 /* Preview Content */,
 				3F82A5AE2ACC087F00F650D9 /* ButtonView.swift */,
 				3F82A5B02ACC0C4B00F650D9 /* Calculation.swift */,
+				3F82A5B22ACC124600F650D9 /* OperatorButtonView.swift */,
 			);
 			path = lab1;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			files = (
 				3F82A5872ACC069700F650D9 /* ContentView.swift in Sources */,
 				3F82A5852ACC069700F650D9 /* lab1App.swift in Sources */,
+				3F82A5B32ACC124600F650D9 /* OperatorButtonView.swift in Sources */,
 				3F82A5AF2ACC087F00F650D9 /* ButtonView.swift in Sources */,
 				3F82A5B12ACC0C4B00F650D9 /* Calculation.swift in Sources */,
 			);

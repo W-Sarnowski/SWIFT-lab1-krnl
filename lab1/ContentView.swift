@@ -5,6 +5,7 @@ struct ContentView: View {
     @State var val1: Int = 0
     @State var val2: Int = 0
     @State var firstVal: Bool = true
+    @State var op: String = ""
     
     var body: some View {
         VStack {
@@ -17,15 +18,35 @@ struct ContentView: View {
             Text(text)
                 .foregroundColor(.red)
                 .font(.largeTitle)
+                .frame(width: 315, height: 60)
+                .border(.black, width: 2)
             HStack {
                 ForEach(0 ..< 3, id: \.self) { index in
-                    ButtonView(name: String(index), text: $text, val1: $val1, val2: $val2, firstVal: $firstVal)
+                    ButtonView(name: String(index + 1), text: $text, val1: $val1, val2: $val2, firstVal: $firstVal)
                 }
             }
-            Button("SUMA") {
+            HStack {
+                ForEach(3 ..< 6, id: \.self) { index in
+                    ButtonView(name: String(index + 1), text: $text, val1: $val1, val2: $val2, firstVal: $firstVal)
+                }
+            }
+            HStack {
+                ForEach(6 ..< 9, id: \.self) { index in
+                    ButtonView(name: String(index + 1), text: $text, val1: $val1, val2: $val2, firstVal: $firstVal)
+                }
+            }
+            HStack {
+                ButtonView(name: "0", text: $text, val1: $val1, val2: $val2, firstVal: $firstVal)
+                
+            }
+            Button("Oblicz") {
                 text = String(Calculation().add(of: val1, with: val2)) 
             }
+                .frame(width: 315, height: 60)
+                .border(.black, width: 2)
+                .font(.largeTitle)
         }
+        .frame(width: 315, height: 60)
         .padding()
     }
 }

@@ -18,8 +18,8 @@ struct ButtonView: View {
             }
             firstVal.toggle()
         }
-            .frame(width: 130, height: 60)
-            .border(.blue, width: 4)
+            .frame(width: 100, height: 60)
+            .border(.black, width: 2)
             .font(.largeTitle)
     }
 }
